@@ -23,6 +23,8 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        env:
+          PUBLIC_URL: "/devops-engineers-who-they-are"
 
       - name: Build the project
         run: npm run build
